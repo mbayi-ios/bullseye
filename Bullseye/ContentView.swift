@@ -28,7 +28,9 @@ struct ContentView: View {
                 Text("100")
                     .bold()
             }
-            Button(action: {}){
+            Button(action: {
+                print("hello amby")
+            }){
                 Text("Hit Me!")
             }
         }
